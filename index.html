@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de viajes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" href= "estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#Servicio">Servicio</a></li>
+                <li><a href="#Mexico">Mexico</a></li>
+                <li><a href="#Colombia">Colombia</a></li>
+                <li><a href="#Peru">Peru</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Ruta<span class="encabezado-azul"> America</span></h1>
+        <h2>Agencia de viajes</h2>
+        <div class="foto-principal">
+            <img src="CSS/argentina.jpg" alt="">
+            <p class="pie-foto">El puente de la mujer es un impresionante puente giratorio en Buenos Aires (Argentina)
+            </p>
+        </div>
+    </main>
+
+    <!-- SECTION ICONOS -->
+    <section class="color1">
+        <div class="caja-contenedora">
+            <article>
+                <div>
+                    <img src="CSS/planea.png">
+                </div>
+                <h3>Planea tu experiencia</h3>
+                <p class="info">Te ayudamos a definir los diferentes destinos que podras visitar optimizando tu presupuesto y tu tiempo</p>
+            </article>
+
+            <article>
+                <div>
+                    <img src="CSS/viaja.png">
+                </div>
+                <h3>Realiza tu viaje</h3>
+                <p class="info">Seleccionamos la mejor ruta y conexiones de vuelo con el menor precio posible gracias a nuestras aerolineas asociadas</p>
+            </article>
+
+            <article>
+                <div>
+                    <img src="CSS/disfruta.png">
+                </div>
+                <h3>Disfruta tu destino</h3>
+                <p class="info">Disfruta tu destino mientras estas cubierto por nuestro seguro contra cualquier eventualidad que pueda presentarse en tu viaje</p>
+            </article>
+
+            <article>
+                <div>
+                    <img src="CSS/planea2.png">
+                </div>
+                <h3>¿Tu siguiente plan?</h3>
+                <p class="info">Planea tu siguiente viaje al destino que prefieras aprovechando nuestros planes de pago u opciones de financiacion</p>
+            </article>
+
+
+
+
+
+
+
+
+        
+        </div>
+    </section>
+
+    <!-- SECTION MEXICO -->
+    <section class="color2">
+        <h3 class="encabezado-pais">Mexico</h3>
+        <div class="caja-contenedora">
+            <p class="info caja-pais">Mexico, oficialmente llamado Estados Unidos Mexicanos, es un pais situado en la parte meridional de America del Norte. Limita al norte con los Estados Unidos de America, al sureste con Belice y Guatemala, al oriente con el golfo de Mexico y el mar Caribe y al poniente con el oceano Pacifico. Es el decimo cuarto pais mas extenso del mundo, con una superficie cercana a los 2 millones de Km2. Es el undecimo pais mas poblado del mundo, con una poblacion que a mediados de 2013 ronda los 118 millones de personas, la mayoria de las cuales tienen como lengua materna el español.</p>
+            <div class="foto-pais">
+                <img src="CSS/mexico1.jpg" alt="">
+                <p class="info-foto">Celebracion en Guadalajara</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION COLOMBIA -->
+    <section class="color3">
+        <h3 class="encabezado-pais">Colombia</h3>
+        <div class="caja-contenedora">
+            <p class="info caja-pais">Colombia, oficialmente Republica de Colombia, es una republica unitaria de America situada en la region noroccidental de America del Sur.
+
+            Colombia es la unica nacion de America del Sur que tiene costas en el oceano Pacifico y en el Mar Caribe, en los que posee diversas islas como el archipielago de San Andres y Providencia. Colombia tiene el numero mas grande de especies por unidad de area en el planeta, en total es el segundo pais mas megadiverso del mundo despues de Brasil, el cual es mas extenso que Colombia.</p>
+            <div class="foto-pais">
+                <img src="CSS/colombia1.jpg" alt="">
+                <p class="info-foto">Centro de Bogota</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PERU -->
+    <section class="color4">
+        <h3 class="encabezado-pais">Peru</h3>
+        <div class="caja-contenedora">
+            <p class="info caja-pais">El Peru(en quechua y en aimara Piruw), o la Republica del Peru, es una republica unitaria descentralizada situada en la parte occidental e intertropical de America del Sur.
+
+                La cultura peruana es diversa como resultado del intenso mestizaje originado en la colonia. A ello se une la posterior influencia de migraciones decimononicas procedentes de China, Japon y Europa. El idioma principal y mas hablado es el español, aunque un numero significativo de peruanos habla diversas lenguas nativas, siendo las mas extendida el quechua sureño.</p>
+            <div class="foto-pais">
+                <img src="CSS/peru1.jpg" alt="">
+                <p class="info-foto">Parque de las Aguas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="color1">
+        <a name="Contacto"></a>
+        <h3 class="encabezado-pais">Contactanos</h3>
+        <div class="caja-contenedora">
+            <form action="procesar.php" method= "post" name="frm">
+                <label class="info" for="">Nombre:</label>
+                <br>
+                <input type="text" name="nombre" id="" placeholder="Introducir nombre">
+                <br>
+                <label class="info" for="">Correo electronico:</label>
+                <br>
+                <input type="email" name="correoelectronico" id="" placeholder="Introducir correo electr.">
+                <br>
+                <label class="info" for="">Mensaje:</label>
+                <br>
+                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <footer class="color5">
+        <div class="caja-pie">
+
+            <div class="col1">
+                <p class="info">Ruta America</p>
+                <p class="info">Somos la mejor empresa de asesorias turisticas con multiples destinos en Centro y Sur America</p>
+            </div>
+            <div class="col2">
+                <p class="info">www.rutaamerica.com</p>
+                <p class="info">info@rutaamerica.com</p>
+                <p class="info">Tel: (571) 8845675</p>
+                <p class="info">Colombia</p>
+            </div>
+
+
+
+
+
+        </div>
+    </footer>
+    
+</body>
+</html>
